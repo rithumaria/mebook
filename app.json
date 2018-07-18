@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "mebook",
+    "description": "Simple ebook app.",
+    "slug": "mebook",
+    "privacy": "unlisted",
+    "sdkVersion": "28.0.0",
+    "androidStatusBar": {
+      "backgroundColor": "#6A00FF"
+    },
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6A00FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+		"android": {
+			"package": "com.isqip.mebook"
+		}
+  }
+}
